@@ -67,3 +67,14 @@ sudo cp ./lib/libcudnn* /usr/local/cuda-11.4/lib64
 sudo chmod a+r /usr/local/cuda-11.4/include/cudnn* /usr/local/cuda-11.4/lib64/libcudnn*
 ```
 
+## tensorflow (2.7.0)
+```
+python 3.9
+tensorflow 2.7.0
+```
+Do not install tensorflow-gpu,or early version of tensorflow, it will has all kinds of error.
+```
+conda install -c conda-forge/label/broken tensorflow 
+```
+
+
